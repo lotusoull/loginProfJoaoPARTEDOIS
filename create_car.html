@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a New Car</h1>
+        <form id="createCarForm">
+            <label for="model">Model:</label>
+            <input type="text" id="model" required>
+            
+            <label for="brand">Brand ID:</label>
+            <input type="number" id="brand" required>
+            
+            <label for="factory_year">Factory Year:</label>
+            <input type="number" id="factory_year" required>
+            
+            <label for="model_year">Model Year:</label>
+            <input type="number" id="model_year" required>
+            
+            <label for="color">Color:</label>
+            <input type="text" id="color">
+            
+            <label for="description">Description:</label>
+            <textarea id="description"></textarea>
+            
+            <button type="submit">Create Car</button>
+        </form>
+        <p>Want to create a new brand? <a href="create_brand.html">Click here</a></p>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
